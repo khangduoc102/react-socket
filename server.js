@@ -3,11 +3,11 @@ var http = require('http').Server(app);
 var io = require('socket.io')(http);
 
 console.log(__dirname + '/build/index.html');
-/*
+
 app.get('/', function(req, res){
   res.sendFile(__dirname + '/build/index.html');
 });
-*/
+
 const desDate = new Date("2018-08-04T15:00:00").getTime();
 const orgDate = new Date("2018-07-06T02:00:00").getTime();
 
